@@ -27,6 +27,7 @@ class OneAdapter(recyclerView: RecyclerView) {
 
     constructor(recyclerView: RecyclerView, block: OneAdapterDslBuilder.() -> Unit) : this(recyclerView) {
         OneAdapterDslBuilder().apply(block).build()
+        internalAdapter.stateRestorationPolicy = RecyclerView.Adapter.StateRestorationPolicy.PREVENT_WHEN_EMPTY
     }
 
     /**

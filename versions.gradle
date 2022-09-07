@@ -16,7 +16,7 @@ ext {
     GRADLE_PLUGIN_VERSION = '4.0.2'
 
     // General
-    RECYCLER_VIEW_VERSION = '1.1.0'
+    RECYCLER_VIEW_VERSION = '1.2.1'
     RECYCLER_VIEW_SELECTION_VERSION = '1.0.0'
 
     // Testing
